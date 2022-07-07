@@ -17,11 +17,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         $num1 = 1;
         $num2 = 2;
         $result = $num1 + $num2;
-        echo("Opção 1: O resultado da soma é:" . $result);
+        echo("Opção 1: O resultado da soma é:" . $num1 + $num2);
         echo "</br>";
-        echo('Opção 2: O resultado da soma é: <span style="color:purple">' . $result . '</span>');
+        echo('Opção 2: O resultado da soma é: <span style="color:purple">' .  $num1 + $num2 . '</span>');
         echo "</br>";
-        echo ("Opção 3: O resultado da soma é: <span style='color: pink'> $result </span>");
+        echo ("Opção 3: O resultado da soma é:" . "<span style='color: pink'> $result </span>");
         
         ?>
 </body>
