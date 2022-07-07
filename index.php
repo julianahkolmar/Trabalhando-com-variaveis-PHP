@@ -16,7 +16,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         echo "<h1>Trabalhando com variáveis</h1>";
         $num1 = 1;
         $num2 = 2;
-        echo('O resultado da soma é: <span style="color:blue">' . $num1 + $num2 . '</span>');
+        echo('Op2: O resultado da soma é: <span style="color:purple">' . $num1 + $num2 . '</span>');
         
         ?>
 </body>
