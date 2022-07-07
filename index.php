@@ -10,7 +10,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
     <title>Aula 08</title>
 </head>
 
-<body style="font-family: Helvetica, sans-serif;">
+<body style="font-family: Heebo,sans-serif;">
     <?php
         // put your code here
         echo "<h1>Trabalhando com variáveis</h1>";
