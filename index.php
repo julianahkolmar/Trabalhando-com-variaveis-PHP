@@ -10,7 +10,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
     <title>Aula 08</title>
 </head>
 
-<body>
+<body style="font-family: Helvetica, sans-serif;">
     <?php
         // put your code here
         echo "<h1>Trabalhando com variáveis</h1>";
@@ -21,8 +21,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         echo "</br>";
         echo('Opção 2: O resultado da soma é: <span style="color:purple">' .  $num1 + $num2 . '</span>');
         echo "</br>";
-        echo ("Opção 3: O resultado da soma é:" . "<span style='color: pink'> $result </span>");
+        echo ("Opção 3: O resultado da soma é:" . "<span style='color: #ff69b4'> $result </span>");
         
+        echo "<hr/>";
+        $nome="Juliana Kolmar";
+        $idade = 19;
+        
+        if ($idade >= 18) {
+            echo "$nome, você é maior de idade!";
+        }
         ?>
 </body>
 
